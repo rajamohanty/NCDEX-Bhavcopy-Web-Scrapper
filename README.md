@@ -1,11 +1,12 @@
 # NCDEX-Bhavcopy-Web-Scrapper
+---
 A simple web scrapper of [NCDEX Bhavcopy](https://www.ncdex.com/MarketData/BhavCopy.aspx) files
 
 ## Prerequisites
 
 1. [Jupyter Notebook](https://www.anaconda.com/distribution/)
 
-2. Packages required:
+2. Python packages required:
     1. [Selenium](https://anaconda.org/conda-forge/selenium)
     2. [time](https://anaconda.org/conda-forge/time)
     3. [os](https://anaconda.org/jmcmurray/os)
@@ -18,3 +19,9 @@ A simple web scrapper of [NCDEX Bhavcopy](https://www.ncdex.com/MarketData/BhavC
 
 
 3. Download [ChromeDriver](https://chromedriver.chromium.org/) for Selenium and put it in a specific directory.
+
+
+## NCDEX Bhavcopy Files Download
+
+First step would be to download the Bhavcopy xls files from the NCDEX website.
+
