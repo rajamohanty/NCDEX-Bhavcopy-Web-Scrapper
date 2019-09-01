@@ -118,3 +118,5 @@ files_path = r"C:/Users/Documents/Practice/"
 destination = r"C:/Users/Documents/"
 MergeBhavcopy(files_path,destination)
 ```
+
+Now you can clean the final dataset `Data.xlsx`.
