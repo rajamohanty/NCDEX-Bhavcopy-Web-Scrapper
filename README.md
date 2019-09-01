@@ -23,10 +23,10 @@ A simple web scrapper of [NCDEX Bhavcopy](https://www.ncdex.com/MarketData/BhavC
 
 ## NCDEX Bhavcopy Files Download
 
-First step would be to download the Bhavcopy xls files from the NCDEX website.
+First download the Bhavcopy xls files from the NCDEX website.
 
-We start with assigning the path to our download directory and also the path to our Chromedriver.exe to specific variables.
-Also, we would want to specify our starting month, day and year.
+Start with assigning the path to our download directory and also the path to our Chromedriver.exe to specific variables.
+Also, you would want to specify your starting month, day and year.
 
 
 An example:
@@ -44,7 +44,8 @@ Note:
 - The month, day and year should be in the numerical format.
 - You can also check each function docstring for further information.
 
-After we have assigned our variables their respective values. We would want to call the `BhavcopyDownload()` function and pass our variables in it as input parameters.
+After we have assigned our variables their respective values. We would want to call the `BhavcopyDownload()` function and pass our variables in it as input parameters. 
+__This function would download all the bhavcopy from the starting date mentioned till the current date and put all those files in the directory specified by you.__
 
 ```python
 BhavcopyDownload(download_path,driver_path,mm,dd,yyyy)
