@@ -25,3 +25,15 @@ A simple web scrapper of [NCDEX Bhavcopy](https://www.ncdex.com/MarketData/BhavC
 
 First step would be to download the Bhavcopy xls files from the NCDEX website.
 
+We start with assingning the path to our download directory and also the path to our Chromedriver.exe to specific variables.
+Also, we would want to specify our start month , day and year.
+
+
+An example:
+```python
+download_path = r"C:\Users\Documents\Practice"
+driver_path = r"C:\Users\Documents\chromedriver_win32\chromedriver.exe"
+mm = 8
+dd = 20
+yyyy = 2019
+```
