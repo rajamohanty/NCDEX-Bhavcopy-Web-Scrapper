@@ -37,3 +37,5 @@ mm = 8
 dd = 20
 yyyy = 2019
 ```
+Note that before the paths we add `r` to denote the path to be a _raw string_. Also, the path should be inside double quotes/ single quotes.
+
