@@ -2,7 +2,8 @@
 # coding: utf-8
 
 # In[ ]:
-
+import os
+import pyexcel
 
 def BhavcopyFileHandle(path):
     '''
@@ -12,9 +13,6 @@ def BhavcopyFileHandle(path):
     path -> Put in the path of the directory where all the Bhavcopy xls files are located.
     
     '''
-    
-    import os
-    import pyexcel
 
     ######################################### Renaming the files from mm-dd-yyyy format to dd-mm-yyyy ############################# 
 
