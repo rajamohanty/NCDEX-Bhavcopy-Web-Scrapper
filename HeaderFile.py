@@ -3,6 +3,11 @@
 
 # In[ ]:
 
+import os
+import xlrd
+import pandas as pd
+import openpyxl
+import shutil
 
 def HeaderFile(path, destination):
     '''
@@ -14,12 +19,7 @@ def HeaderFile(path, destination):
     destination -> Path of the directory where Headers.xlsx will be stored (Preferably any path other than the original path).
     
     '''
-    import os
-    import xlrd
-    import pandas as pd
-    import openpyxl
-    import shutil
-
+    
     os.chdir(path)
 
     file_names = os.listdir(path)
