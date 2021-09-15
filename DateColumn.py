@@ -2,6 +2,9 @@
 # coding: utf-8
 
 # In[ ]:
+import os
+import xlrd
+import openpyxl
 
 
 def DateColumn(path):
@@ -12,10 +15,7 @@ def DateColumn(path):
     path -> Put in the path of the directory where all the Bhavcopy xlsx files are located.
     
     '''
-    import os
-    import xlrd
-    import openpyxl
-
+    
     os.chdir(path)
 
     file_names = os.listdir(path)
