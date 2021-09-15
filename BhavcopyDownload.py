@@ -2,7 +2,10 @@
 # coding: utf-8
 
 # In[ ]:
-
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.chrome.options import Options
+import time 
 
 def BhavcopyDownload(DownloadPath,DriverPath,mm,dd,yyyy):
     '''
@@ -15,12 +18,7 @@ def BhavcopyDownload(DownloadPath,DriverPath,mm,dd,yyyy):
     dd -> Specify the start date
     yyyy -> Specify the start year
     
-    '''
-    
-    from selenium import webdriver
-    from selenium.webdriver.support.ui import WebDriverWait
-    from selenium.webdriver.chrome.options import Options
-    import time    
+    '''   
     
     chromeoptions = Options()
     
