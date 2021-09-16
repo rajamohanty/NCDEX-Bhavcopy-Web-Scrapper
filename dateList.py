@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[ ]:
-
+from datetime import timedelta, date
 
 def dateList(mm,dd,yyyy):
     '''
@@ -12,7 +12,6 @@ def dateList(mm,dd,yyyy):
     dd -> day (eg. 28)
     yyyy -> year (eg. 2018)
     '''
-    from datetime import timedelta, date
 
     def daterange(date1, date2):
         for n in range(int ((date2 - date1).days)+1):
