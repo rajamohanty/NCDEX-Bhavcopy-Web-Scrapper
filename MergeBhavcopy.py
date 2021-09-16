@@ -2,6 +2,11 @@
 # coding: utf-8
 
 # In[ ]:
+import os
+import pandas as pd
+import xlrd
+import openpyxl
+import shutil
 
 
 def MergeBhavcopy(path,destination):
@@ -14,12 +19,7 @@ def MergeBhavcopy(path,destination):
     destination -> Path of the directory where Data.xlsx will be stored (Preferably any path other than the original path).
     
     '''
-    import os
-    import pandas as pd
-    import xlrd
-    import openpyxl
-    import shutil
-
+   
 
     os.chdir(path)
 
